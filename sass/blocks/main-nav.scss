@@ -1,0 +1,33 @@
+.main-nav {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  margin: auto;
+  margin-right: 0;
+
+  @media #{$tablet-width--md} {
+    display: none;
+  }
+}
+
+.main-nav__item {
+  margin-right: 34px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.main-nav__link {
+  color: $text-dark;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'MullerMedium', Arial, sans-serif;
+  font-size: $font--xs;
+  line-height: $line--lg;
+  transition: all 0.2s;
+
+  &:hover {
+    color: $color-primary;
+  }
+}

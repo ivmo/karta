@@ -1,0 +1,30 @@
+.section-title {
+  margin: 0;
+  text-align: center;
+  font-family: 'MullerBold', Arial, sans-serif;
+  font-size: $title-font--largest;
+  line-height: $line--md;
+
+  @media #{$tablet-width--xs} {
+    font-size: $title-font--large;
+    text-align: center;
+  }
+
+  span {
+    display: block;
+    font-family: 'MullerRegular';
+  }
+}
+
+.section-title--white {
+  color: $text-white;
+}
+
+.section-title--center {
+  text-align: center;
+}
+
+.section-title--small {
+  font-size: $title-font--large;
+  line-height: $line--md;
+}

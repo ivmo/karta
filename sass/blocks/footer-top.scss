@@ -1,0 +1,48 @@
+.footer-top {
+
+}
+
+.footer-top__info {
+  text-align: center;
+
+}
+
+.footer-top__text {
+  max-width: 705px;
+  margin: auto;
+  padding-top: 56px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: $font--xlg;
+  line-height: $line--lg;
+  font-family: 'MullerMedium', Arial, sans-serif;
+
+  @media #{$tablet-width--xs} {
+    padding-top: 28px;
+    padding-bottom: 25px;
+    font-size: $font--lg;
+  }
+
+  b {
+    text-transform: uppercase;
+  }
+}
+
+.footer-top__mail {
+  color: $color-primary;
+}
+
+.footer-top__tel {
+  color: $text-black;
+  text-decoration: none;
+}
+
+.footer-top__info--shadow {
+
+  .container {
+    box-shadow: 0 22px 47px -28px $gray-light, 0 84px 59px -65px $gray-light, 0 -32px 48px -28px $gray-light;
+    position:relative;
+    overflow: visible;
+
+  }
+}

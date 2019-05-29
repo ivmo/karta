@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Карта</title>
+</head>
+
+<body>
+
+  <div id="wrapper-content">
+
+    <header class="main-header">
+      <div class="container  main-header__inner">
+        <div class="main-header__logo"><a href="#">Туристическая карта <span>городов Кавказских Минеральных Вод</span></a></div>
+        <div class="drop-select">
+          <div class="drop-select__title  drop-select__title--drop">Скачать карту</div>
+          <div class="links-list  links-list--header">
+            <div class="links-list__inner">
+              <div class="links-list__item">
+                <a class="links-list__link" href="#">Пятигорск.pdf</a><span> 250kb</span>
+              </div>
+              <div class="links-list__item">
+                <a class="links-list__link" href="#">Ессентуки.pdf</a><span> 250kb</span>
+              </div>
+              <div class="links-list__item">
+                <a class="links-list__link" href="#">Кисловодск.pdf</a><span> 250kb</span>
+              </div>
+            </div>
+          </div>
+          <div class="drop-select__delay"></div>
+        </div>
+        <nav class="main-nav">
+          <div class="main-nav__item"><a class="main-nav__link" href="#">Реклама на карте</a></div>
+          <div class="main-nav__item"><a class="main-nav__link" href="#">Отзывы</a></div>
+          <div class="main-nav__item"><a class="main-nav__link" href="#">О проекте</a></div>
+          <div class="main-nav__item"><a class="main-nav__link" href="#">Контакты</a></div>
+        </nav>
+        <div class="mobile-nav">
+          <a href="#mobile-menu" class="hamburger-wrap">
+            <span class="hamburger-icon"></span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-map">
+      <div class="main-slider  js_main-slider">
+        <div class="main-slider__item" style="background: url('img/map-bg.jpg') no-repeat; background-position: top center; background-size: cover;">
+          <div class="main-slider__info">
+            <div class="main-slider__name">Карта ваших впечатлений</div>
+            <div class="main-slider__title">Содержит главные объекты и достопримечательности города</div>
+            <div class="main-slider__btn-inner">
+              <a class="main-slider__btn" href="#">Где купить?</a>
+            </div>
+          </div>
+        </div>
+        <div class="main-slider__item" style="background: url('img/map-bg.jpg') no-repeat; background-position: top center; background-size: cover;">
+          <div class="main-slider__info">
+            <div class="main-slider__name">Карта ваших впечатлений</div>
+            <div class="main-slider__title">Содержит главные объекты и достопримечательности города</div>
+            <div class="main-slider__btn-inner">
+              <a class="main-slider__btn" href="#">Что купить?</a>
+            </div>
+          </div>
+        </div>
+        <div class="main-slider__item" style="background: url('img/map-bg.jpg') no-repeat; background-position: top center; background-size: cover;">
+          <div class="main-slider__info">
+            <div class="main-slider__name">Карта ваших впечатлений</div>
+            <div class="main-slider__title">Содержит главные объекты и достопримечательности города</div>
+            <div class="main-slider__btn-inner">
+              <a class="main-slider__btn" href="#">Когда купить?</a>
+            </div>
+          </div>
+        </div>
+        <div class="main-slider__item" style="background: url('img/map-bg.jpg') no-repeat; background-position: top center; background-size: cover;">
+          <div class="main-slider__info">
+            <div class="main-slider__name">Карта ваших впечатлений</div>
+            <div class="main-slider__title">Содержит главные объекты и достопримечательности города</div>
+            <div class="main-slider__btn-inner">
+              <a class="main-slider__btn" href="#">Зачем купить?</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-slider-nav  js_main-slider-nav">
+        <div class="main-slider-nav__item"><span>#КрасавецПятигорск</span></div>
+        <div class="main-slider-nav__item"><span>#СолнечныйКисловодск</span></div>
+        <div class="main-slider-nav__item"><span>#ТерриторияЗдоровьяЕссентуки</span></div>
+        <div class="main-slider-nav__item"><span>#ЛеснойЖелезноводск</span></div>
+      </div>
+    </div>
+
+    <div class="main-promo">
+
+      <div class="container">
+        <div class="main-promo__inner">
+          <div class="main-promo__list  main-promo__list--left">
+            <div class="main-promo-item  main-promo-item--between">
+              <div class="drop-select drop-select--promo">
+                <div class="drop-select__title">Скачать карту</div>
+                <div class="links-list">
+                  <div class="links-list__item">
+                    <a class="links-list__link" href="#">Пятигорск.pdf</a><span> 250kb</span>
+                  </div>
+                  <div class="links-list__item">
+                    <a class="links-list__link" href="#">Ессентуки.pdf</a><span> 250kb</span>
+                  </div>
+                  <div class="links-list__item">
+                    <a class="links-list__link" href="#">Кисловодск.pdf</a><span> 250kb</span>
+                  </div>
+                  <div class="links-list__item">
+                    <a class="links-list__link" href="#">Железноводск.pdf</a><span> 250kb</span>
+                  </div>
+                </div>
+              </div>
+              <div class="main-promo-item__info  main-promo-item__info--1  main-promo-item__info--right">
+                <div class="main-promo-item__title">Яркий дизайн</div>
+                <div class="main-promo-item__text">Яркая и необычная прорисовка карты, доставляющая эстетическое удовольствие.</div>
+              </div>
+            </div>
+            <div class="main-promo-item  main-promo-item--2">
+              <div class="main-promo-item__info">
+                <div class="main-promo-item__title">Легкая навигация</div>
+                <div class="main-promo-item__text">Все объекты на карте аккуратно прорисованы и узнаваемы. С картой удобной ориентироваться в городе. </div>
+              </div>
+              <div class="main-promo-item__pic">
+                <img src="img/promo-attractions.png" alt="">
+              </div>
+            </div>
+            <div class="main-promo-item  main-promo-item--3">
+              <div class="main-promo-item__info">
+                <div class="main-promo-item__title">Достопримечательности города</div>
+                <div class="main-promo-item__text">На карте отмечены все самые известные достопримечательности. Приведены интересные факты.</div>
+              </div>
+              <div class="main-promo-item__pic">
+                <img src="img/promo-attractions.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="main-promo__list  main-promo__list--right">
+            <div class="main-promo-item  main-promo-item--4">
+              <div class="main-promo-item__pic">
+                <img src="img/promo-recom.png" alt="">
+              </div>
+              <div class="main-promo-item__info">
+                <div class="main-promo-item__title">Полезные рекомендации</div>
+                <div class="main-promo-item__text">Где поесть, где развлечься, куда сходить? Отмечены все проверенные заведения и развлечения города.</div>
+              </div>
+            </div>
+            <div class="main-promo-item  main-promo-item--5">
+              <div class="main-promo-item__pic">
+                <img src="img/promo-taxi.png" alt="">
+              </div>
+              <div class="main-promo-item__info">
+                <div class="main-promo-item__title">Такси</div>
+                <div class="main-promo-item__text">Информируем туриста о стоимости и возможности передвижения в городе.</div>
+              </div>
+            </div>
+            <div class="main-promo-item  main-promo-item--6">
+              <div class="main-promo-item__pic">
+                <img src="img/promo-gift.png" alt="">
+              </div>
+              <div class="main-promo-item__info">
+                <div class="main-promo-item__title">Подарок каждому гостю города</div>
+                <div class="main-promo-item__text">Наши рекламодатели приготовили подарок, скидку или другой приятный бонус каждому кто предъявит им данную карту!</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-promo__btns"><a href="#" class="btn  btn--bg-yellow  btn--arrow">Размещение рекламы на карте</a></div>
+      </div>
+
+    </div>
+
+    <section class="map-info">
+      <div class="container">
+        <div class="map-info__title">Вы можете <b>купить карту за 50 рублей</b> по адресам:</div>
+        <div class="info-tabs">
+          <div class="tabs">
+            <ul class="tab-links">
+              <li class="active"><a href="#tab1"><span>Пятигорск</span></a></li>
+              <li><a href="#tab2"><span>Кисловодск</span></a></li>
+              <li><a href="#tab3"><span>Ессентуки</span></a></li>
+              <li><a href="#tab4"><span>Железноводск</span></a></li>
+            </ul>
+            <div class="tab-content">
+              <div id="tab1" class="tab active">
+                <div class="tab-content__inner">
+                  <div class="tab-content__col">
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                  </div>
+                  <div class="tab-content__col">
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                  </div>
+                  <div class="tab-content__col">
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="tab2" class="tab">
+                <div class="tab-content__inner">
+                  <div class="tab-content__col">
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                  </div>
+                  <div class="tab-content__col">
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                  </div>
+                  <div class="tab-content__col">
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="tab3" class="tab">
+                <div class="tab-content__inner">
+                  <div class="tab-content__col">
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                  </div>
+                  <div class="tab-content__col">
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                  </div>
+                  <div class="tab-content__col">
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="tab4" class="tab">
+                <div class="tab-content__inner">
+                  <div class="tab-content__col">
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                  </div>
+                  <div class="tab-content__col">
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                  </div>
+                  <div class="tab-content__col">
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="map-info  map-info--bg-gray">
+      <div class="container">
+        <div class="map-info__title">Вы можете <b>купить карту за 50 рублей</b> по адресам:</div>
+        <div class="info-tabs">
+          <div class="tabs">
+            <ul class="tab-links">
+              <li class="active"><a href="#tab-1"><span>Пятигорск</span></a></li>
+              <li><a href="#tab-2"><span>Кисловодск</span></a></li>
+              <li><a href="#tab-3"><span>Ессентуки</span></a></li>
+              <li><a href="#tab-4"><span>Железноводск</span></a></li>
+            </ul>
+            <div class="tab-content">
+              <div id="tab-1" class="tab active">
+                <div class="tab-content__inner">
+                  <div class="tab-content__col">
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                  </div>
+                  <div class="tab-content__col">
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                  </div>
+                  <div class="tab-content__col">
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="tab-2" class="tab">
+                <div class="tab-content__inner">
+                  <div class="tab-content__col">
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                  </div>
+                  <div class="tab-content__col">
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                  </div>
+                  <div class="tab-content__col">
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="tab-3" class="tab">
+                <div class="tab-content__inner">
+                  <div class="tab-content__col">
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                  </div>
+                  <div class="tab-content__col">
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                  </div>
+                  <div class="tab-content__col">
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="tab-4" class="tab">
+                <div class="tab-content__inner">
+                  <div class="tab-content__col">
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                  </div>
+                  <div class="tab-content__col">
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                  </div>
+                  <div class="tab-content__col">
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                    <div class="tab-content__item">
+                      <div class="tab-content__title">Санаторий «Горячий ключ»</div>
+                      <div class="tab-content__text">ул. Братьев Бернардации, д. 1</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="request">
+      <div class="container request__inner">
+        <h3 class="section-title  section-title--small">Хотите разместить карту на своём объекте?</h3>
+        <div class="btn  btn--bg-yellow">Оставьте заявку</div>
+      </div>
+    </section>
+
+    <section class="feedback">
+      <div class="container feedback-form__inner">
+        <h3 class="feedback-form__title"><span>Уже пользовались нашей картой?</span>Оставьте отзыв!</h3>
+        <form action="/" method="post" class="feedback-form clearfix">
+          <div class="form-group">
+            <label class="form-label">
+              <span>Ваше имя*</span>
+              <input class="form-input placeholder-fly" type="text">
+            </label>
+          </div>
+          <div class="form-group">
+            <label class="form-label">
+              <span>Отзыв*</span>
+              <textarea class="form-input form-textarea placeholder-fly" name="message"></textarea>
+            </label>
+          </div>
+          <div class="form-group  form-group--checkbox  form-group--mt">
+            <label class="form-label">
+              <input class="form-input form-input--checkbox" type="checkbox" required>
+              <!-- <span class="form-group__checkbox"></span> -->
+              <span class="form-group__checkbox-description"><a href="#">Согласен</a> на обработку персональных данных</span>
+            </label>
+          </div>
+          <div class="feedback__btns"><button type="submit" class="btn  btn--bg-yellow">Отправить</button></div>
+        </form>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <div class="container  reviews__inner">
+        <h3 class="reviews__title">Отзывы о карте</h3>
+        <div class="reviews-slider  js_reviews">
+          <div class="reviews-slider__item">
+            <div class="reviews-slider__title">Анастасия, гость города Кисловодск, пишет</div>
+            <div class="reviews-slider__text">Никак не могли найти что то необчное Никак не могли найти что то необчное на память о прекрасном отдыхе! Увидев вашу карту поняли что лучшего напоминания о чудесном отпуске нам не найти! Все места в которых мы были есть на карте.</div>
+          </div>
+          <div class="reviews-slider__item">
+            <div class="reviews-slider__title">Петр, гость города Кисловодск, пишет</div>
+            <div class="reviews-slider__text">Никак не могли найти что то необчное на память о прекрасном отдыхе! Увидев вашу карту поняли что лучшего напоминания о чудесном отпуске нам не найти! Все места в которых мы были есть на карте.</div>
+          </div>
+          <div class="reviews-slider__item">
+            <div class="reviews-slider__title">Мария, гость города Кисловодск, пишет</div>
+            <div class="reviews-slider__text">Никак не могли найти что то необчное на память о прекрасном отдыхе! Увидев вашу карту поняли что лучшего напоминания о чудесном отпуске нам не найти! Все места в которых мы были есть на карте.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ads">
+      <div class="ads__inner">
+        <div class="ads__title">Реклама на карте</div>
+        <div class="btn  btn--bg-yellow  btn--arrow">Подробнее</div>
+      </div>
+    </section>
+
+    <div class="footer">
+      <div class="footer-top">
+        <div class="footer-top__info">
+          <div class="container">
+            <div class="footer-top__text">Карта является художественным произведением и может использоваться только на усмотрение пользователя. Копирование материалов <b>запрещено</b>.</div>
+          </div>
+        </div>
+        <div class="footer-top__info  footer-top__info--shadow">
+          <div class="container">
+            <div class="footer-top__text">
+              Предложения и пожелания по карте присылайте на <a class="footer-top__mail" href="mailto:karta@webelement.ru">karta@webelement.ru</a> или сообщайте по телефону <a class="footer-top__tel" href="tel:+79054454510">+7(905) 445-45-10</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-info">
+        <div class="container">
+          <div class="footer-info__item">
+            <div class="footer-info__pic"><img src="img/kurort26.png" alt=""></div>
+            <div class="footer-info__description">
+              <div class="footer-info__title">Идея проекта</div>
+              <a href="kurort26.ru" class="footer-info__link">Kurort26.ru </a>&mdash;
+              <div class="footer-info__text">Туристический портал КавМинВод</div>
+            </div>
+          </div>
+          <div class="footer-info__item">
+            <div class="footer-info__pic"><img src="img/web.jpg" alt=""></div>
+            <div class="footer-info__description">
+              <div class="footer-info__title">Реализация проекта</div>
+              <a href="webelement.ru" class="footer-info__link  footer-info__link--uppercase">webelement</a>
+              <div class="footer-info__text">Создание и продвижение сайтов</div>
+            </div>
+          </div>
+          <div class="footer-info__item">
+            <div class="footer-info__description">
+              <div class="footer-info__text"><b>Художник-иллюстратор:</b> И.В. Иванова</div>
+              <div class="footer-info__text"><b>Тексты:</b> А.В. Драч</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="footer-bottom__item">&copy; Студия &laquo;WEBELEMENT&raquo;, 2018</div>
+          <div class="footer-bottom__item  footer-bottom__item--policy">
+            <div class="policy">
+              <a href="/user-agreement/">Пользовательское соглашение</a>
+              <a href="/privacy-policy/">Политика конфиденциальности</a>
+            </div>
+          </div>
+          <div class="footer-bottom__item">Создание сайта <a href="webelement.ru">webelement</a></div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <a class="totop" href="#header-top"></a>
+  </div>
+
+  <div class="cookies-popup">
+    <div class="cookies-popup__wrapper">
+      <div class="cookies-popup__text">Наш Сайт <a href="/privacy-policy/" target="_blank">использует cookie-файлы</a> для того, чтобы отличить Вас от других пользователей нашего ресурса.</div>
+      <a href="#" class="cookies-popup__btn">Ok</a>
+    </div>
+  </div>
+
+  <noindex>
+    <nav id="mobile-menu" class="mobile-menu">
+      <a class="cross-btn" id="cross-btn" href="#wrapper-content"></a>
+      <div class="main-nav  main-nav--mobile">
+        <ul class="main-menu">
+          <li class="main-menu__item"><a class="main-menu__link  main-menu__link--active" href="#">Реклама на карте</a></li>
+          <li class="main-menu__item"><a class="main-menu__link" href="#">Отзывы</a></li>
+          <li class="main-menu__item"><a class="main-menu__link" href="#">О проекте</a></li>
+          <li class="main-menu__item"><a class="main-menu__link" href="#">Контакты</a></li>
+        </ul>
+      </div>
+    </nav>
+  </noindex>
+
+  <!-- <script src="js/jquery-3.1.1.min.js"></script> -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/js.cookie.js"></script>
+  <script src="js/jquery.mmenu.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.maskedinput.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

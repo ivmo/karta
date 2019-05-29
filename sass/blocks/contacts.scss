@@ -1,0 +1,119 @@
+.contacts {
+  padding-top: 80px;
+  padding-bottom: 87px;
+  background: $bg-dark;
+
+  @media #{$tablet-width--xs} {
+    padding-top: 40px;
+    padding-bottom: 47px;
+  }
+
+  .container {
+    display: flex;
+    align-items: flex-start;
+
+    @media #{$tablet-width--xs} {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+
+.contacts__info {
+  position: relative;
+  z-index: 3;
+
+  @media #{$tablet-width--xs} {
+    margin-bottom: 20px;
+  }
+}
+
+.contacts__title {
+  margin-bottom: 42px;
+
+  @media #{$tablet-width--xs} {
+    margin-bottom: 22px;
+  }
+}
+
+.contacts__inner {
+  width: 100%;
+  max-width: 369px;
+  padding: 50px 74px;
+  background: $bg-white;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 7px 0 15px -4px $gray-light;
+  box-sizing: border-box;
+  flex-shrink: 0;
+
+  @media #{$tablet-width--xs} {
+    padding: 25px 74px;
+    box-shadow: none;
+  }
+
+  @media #{$mobile-width--sm} {
+    padding: 25px 35px;
+  }
+}
+
+.contacts__address {
+  margin-bottom: 22px;
+  font-family: 'MullerMedium', Arial, sans-serif;
+
+  @media #{$mobile-width--sm} {
+    margin-bottom: 12px;
+  }
+}
+
+.contacts__mail {
+  display: block;
+  margin-bottom: 26px;
+  color: $color-primary;
+  font-family: 'MullerRegular', Arial, sans-serif;
+
+  @media #{$mobile-width--sm} {
+    margin-bottom: 20px;
+  }
+}
+
+.contacts__phone {
+  display: block;
+  margin-bottom: 28px;
+  color: $text-black;
+  font-family: 'MullerMedium', Arial, sans-serif;
+  font-size: $font--xlg;
+  line-height: $line--xs;
+  text-decoration: none;
+
+  @media #{$mobile-width--sm} {
+    margin-bottom: 12px;
+  }
+}
+
+.contacts__manager {
+  font-size: $font--xlg;
+  line-height: $line--md;
+  font-family: 'MullerMedium', Arial, sans-serif;
+}
+
+.contacts__post {
+  font-family: 'MullerRegular', Arial, sans-serif;
+  font-size: $font--lg;
+  line-height: $line--md;
+  font-style: italic;
+}
+
+.contacts__map {
+  height: 444px;
+  flex-grow: 1;
+  margin-left: -70px;
+  background: $gray-lighten;
+  border-radius: 10px;
+
+  @media #{$tablet-width--xs} {
+    width: 100%;
+    height: 350px;
+    margin-left: initial;
+  }
+}

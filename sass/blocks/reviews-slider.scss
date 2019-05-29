@@ -1,0 +1,151 @@
+.reviews-slider {
+  position: relative;
+  max-width: 970px;
+  padding: 36px 72px 100px;
+  margin: auto;
+  background-color: $bg-white;
+  border-radius: 10px;
+
+  @media #{$tablet-width--xs} {
+    padding: 36px 12px 50px;
+  }
+
+  &:after {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 53px;
+    background: url("../img/quote-arrow-white.png") no-repeat;
+    position: absolute;
+    top: -52px;
+    left: 15%;
+  }
+}
+
+.reviews-slider--ads {
+
+}
+
+.reviews-slider__title {
+  margin-bottom: 35px;
+  font-family: 'MullerMedium', Arial, sans-serif;
+  text-align: center;
+  color: $color-primary;
+  text-transform: uppercase;
+  font-size: $font--xs;
+  line-height: $line--md;
+  letter-spacing: 1px;
+
+  @media #{$tablet-width--xs} {
+    margin-bottom: 25px;
+  }
+}
+
+.reviews-slider__logo {
+  max-width: 130px;
+  margin: auto;
+  margin-bottom: 35px;
+  font-family: 'MullerMedium', Arial, sans-serif;
+  text-align: center;
+  color: $color-primary;
+  text-transform: uppercase;
+  font-size: $font--xs;
+  line-height: $line--md;
+  letter-spacing: 1px;
+
+  @media #{$tablet-width--xs} {
+    margin-bottom: 25px;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.reviews-slider__text {
+  position: relative;
+  // padding: 0 15px;
+  text-align: center;
+  font-family: 'MullerBold', Arial, sans-serif;
+  font-size: $font--large;
+  line-height: $line--lg;
+
+  @media #{$tablet-width--xs} {
+    font-size: $font--xlg;
+  }
+
+  &::before {
+    content: '«';
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+    color: $color-primary;
+    // position: absolute;
+    top: 0;
+    left: 0;
+    font-size: $font--largest;
+    line-height: 0.5em;
+  }
+
+  &::after {
+    content: '»';
+    display: inline-block;
+    vertical-align: middle;
+    color: #22a7f0;
+    margin-left: 15px;
+    font-size: $font--largest;
+    line-height: 0.5em;
+  }
+}
+
+.reviews-slider .slick-dots {
+  bottom: 12px;
+  left: 0;
+}
+
+.reviews-slider--ads .slick-dots {
+  bottom: 44px;
+
+  @media #{$tablet-width--xs} {
+    bottom: 12px;
+  }
+}
+
+.reviews-slider .slick-dots button {
+  width: 11px;
+  height: 11px;
+  border: 3px solid $gray-light;
+  background: $bg-white;
+  border-radius: 100%;
+
+  &:before {
+    display: none;
+  }
+}
+
+.reviews-slider .slick-active button {
+  background: $color-primary;
+  border-color: $color-primary;
+}
+
+.reviews-slider__autor {
+  margin-top: 30px;
+  text-align: center;
+  font-size: $font--xs;
+  line-height: $line--md;
+  color: $color-primary;
+  text-transform: uppercase;
+  font-family: 'MullerMedium', Arial, sans-serif;
+  letter-spacing: 1px;
+
+  span {
+    display: block;
+    text-align: center;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: none;
+    color: $gray-light;
+    letter-spacing: normal;
+  }
+}

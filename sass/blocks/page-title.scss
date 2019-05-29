@@ -1,0 +1,30 @@
+.page-title {
+  margin: 0;
+  font-size: $title-font--xlargest;
+  line-height: $line--md;
+  color: $text-black;
+  font-family: 'MullerBold', Arial, sans-serif;
+
+  @media #{$tablet-width--xs} {
+    font-size: $title-font--large;
+    line-height: $line--md;
+  }
+
+  span {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    font-size: $title-font--sm;
+    line-height: $line--xs;
+    color: $text-gray;
+    font-weight: normal;
+  }
+}
+
+.page-title--white {
+  color: $text-white;
+}
+
+.page-title--center {
+  text-align: center;
+}

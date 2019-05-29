@@ -1,0 +1,22 @@
+.reviews {
+  padding-bottom: 40px;
+  background: $gray-lightest;
+
+  @media #{$tablet-width--xs} {
+    padding-bottom: 10px;
+  }
+}
+
+.reviews__inner {
+
+}
+
+.reviews__title {
+  margin: 0;
+  margin-bottom: 55px;
+  text-transform: uppercase;
+  font-family: 'MullerRegular', Arial, sans-serif;
+  font-size: $title-font--large;
+  line-height: $line--md;
+  text-align: center;
+}

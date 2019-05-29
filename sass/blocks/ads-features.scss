@@ -1,0 +1,89 @@
+.ads-features {
+  position: relative;
+  padding: 66px 0;
+  background: url('../img/ads-feature.jpg');
+
+  @media #{$tablet-width--md} {
+    padding: 30px 0;
+  }
+
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(4,27,49,.9);
+  }
+
+  .container {
+    position: relative;
+  }
+}
+
+.ads-features__title-top {
+  max-width: 340px;
+  text-align: left;
+  margin-bottom: 36px;
+  text-transform: uppercase;
+  color: $text-white;
+  font-family: 'MullerBold', Arial, sans-serif;
+  font-size: $title-font--sm;
+  line-height: $line--md;
+
+  @media #{$tablet-width--xs} {
+    text-align: center;
+  }
+}
+
+.ads-features__list {
+  display: flex;
+  justify-content: space-between;
+
+  @media #{$tablet-width--xs} {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.ads-features__item {
+  max-width: 186px;
+  padding: 0 15px;
+
+  @media #{$tablet-width--xs} {
+    margin-bottom: 25px;
+  }
+}
+
+.ads-features__pic {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 17px;
+  text-align: center;
+  font-size: 0;
+  line-height: 0;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.ads-features__title {
+  color: $text-white;
+  font-family: 'MullerRegular', Arial, sans-serif;
+  font-size: $title-font--sm;
+  line-height: $line--md;
+
+  @media #{$tablet-width--md} {
+    font-size: $font--lg-2;
+    line-height: $line--md;
+  }
+
+  @media #{$tablet-width--xs} {
+    text-align: center;
+  }
+}

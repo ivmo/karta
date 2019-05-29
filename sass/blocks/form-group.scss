@@ -1,0 +1,125 @@
+.form-group {
+  position:relative;
+  margin-bottom: 30px;
+
+  @media #{$tablet-width--xs} {
+		margin-bottom: 15px;
+	}
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.form-label span {
+  position: absolute;
+  left: 10px;
+  // top: 7px;
+  top: 19px;
+  color: #fff;
+  background-color: #03a678;
+  z-index: 10;
+  transition: transform 150ms ease-out, font-size 150ms ease-out;
+  cursor: text;
+  font-size: 1.1em;
+}
+
+.focused .form-label span {
+  // transform: translateY(-90%);
+  transform: translateY(-152%);
+  font-size: .85em;
+}
+
+.form-input {
+  position: relative;
+  // padding: 12px 10px 5px 10px;
+  padding: 22px 10px 12px 10px;
+  width: 100%;
+  outline: 0;
+  border: 1px solid #fff;
+  background: transparent;
+  color: #ffffff;
+  border-radius: 4px;
+  transition: box-shadow 150ms ease-out;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+
+.form-input--checkbox {
+  display: none;
+}
+
+.form-label .form-group__checkbox {
+  position: static;
+  display: inline-block;
+  vertical-align: middle;
+  width: 25px;
+  height: 25px;
+  background: none;
+  border: 1px solid $bg-white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.form-label .form-group__checkbox-description {
+  position: static;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    font-size: 28px;
+    line-height: 28px;
+    vertical-align: middle;
+    margin-right: 10px;
+    border: 1px solid $bg-white;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  a {
+    color: $text-white;
+
+    &:hover {
+      color: $text-white;
+    }
+  }
+}
+
+.form-input--checkbox:checked + .form-group__checkbox-description {
+
+  &::before {
+    background: url('../img/check.svg') no-repeat;
+    background-size: contain;
+  }
+}
+
+.form-group--mt {
+  margin-top: -70px;
+
+  @media #{$tablet-width--xs} {
+		margin-top: 0;
+	}
+}
+
+.form-group--left {
+  float: left;
+  width: 100%;
+  max-width: 400px;
+}
+.form-group--right {
+  float: right;
+  width: 100%;
+  max-width: 400px;
+  margin-left: 12px;
+  margin-top: 0;
+}
+
+.form-textarea {
+  height: 119px;
+}

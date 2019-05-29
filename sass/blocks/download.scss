@@ -1,0 +1,48 @@
+.download {
+  padding: 40px 0;
+
+  @media #{$tablet-width--xs} {
+    padding: 20px 0;
+  }
+}
+
+.download__inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.download__item {
+  display: flex;
+  width: 100%;
+  max-width: 300px;
+  margin-right: 120px;
+  margin-bottom: 34px;
+  align-items: center;
+
+  @media #{$tablet-width--md} {
+    margin-right: 60px;
+  }
+
+  @media #{$mobile-width--md} {
+    margin-right: 0;
+  }
+}
+
+.download__pic {
+  width: 44px;
+  flex-shrink: 0;
+  font-size: 0;
+  line-height: 0;
+  margin-right: 18px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.download__title {
+  font-family: 'MullerLight', Arial, sans-serif;
+  font-size: $font--lg-2;
+  line-height: $line--md;
+  color: $color-primary;
+}

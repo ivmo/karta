@@ -1,0 +1,52 @@
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+  padding: 16px 35px;
+  font-weight: bold;
+  border-radius: 30px;
+  color: $text-black;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn--bg-yellow {
+  background: $color-yellow;
+
+  &:hover {
+    background: lighten($color-yellow, 10%);
+  }
+}
+
+.btn--arrow {
+  position: relative;
+  padding-right: 75px;
+
+  &::after {
+  content: '';
+  position: absolute;
+  right: 35px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-block;
+  vertical-align: middle;
+  width: 25px;
+  height: 17px;
+  background: url("../img/right-arrow.svg") no-repeat;
+  background-size: contain;
+  transition: all 0.4s;
+  }
+
+  &:hover {
+    background: lighten($color-yellow, 10%);
+
+    &::after {
+      right: 20px;
+    }
+  }
+}
